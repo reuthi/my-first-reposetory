@@ -1,0 +1,24 @@
+.piano {
+  background: black;
+  display:flex;
+  justify-content: space-around;
+}
+
+
+.note {
+  border: 1px solid black;
+  width:100%;
+  height:200px;
+  text-align: center;
+  margin:10px;
+  border-radius: 50%;
+}
+
+.playing {
+  outline: 1px solid gray;
+}
+.myScore{
+
+  font-size: 5em;
+  color:red;
+}
